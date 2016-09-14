@@ -117,11 +117,11 @@ FROM database.table;
 **Directions**: Create a GitHub account.  All assignments will be submitted to your GitHub account.  You can use any format (e.g., .md, .txt) EXCEPT word processors (e.g., MS Word) to upload your solutions.  All queries will use the `Products` table.  Connect to the database.  Copy [Products.sql](https://github.com/jamesquinlan/mat301/tree/master/products), change database name to your database, paste in Query window, then execute.
 
 ===
-Note; we tried downloading teh workbench, but it wouldn't work. 
+Note; we tried downloading the workbench, but it wouldn't work. 
 1. What does SQL stand for?  How is it pronounced?
 Structured Query Language
 2. Are SQL commands case-sensitive?  How can you determine? 
-Command queries are case-sensitive, but the serach one's like table aren't.
+Command queries are case-sensitive, but the search one's like table aren't.
 3. What does DQL stand for?
 Data Query Language
 4. True or False:  Is it necessary to use the `FROM` clause with the select statement? 
@@ -131,7 +131,7 @@ False, unless we’re limiting the choices it isn’t needed
 6. What is the purpose of the `ORDER BY` clause?  What is its default value?
 It’s to order the values in ascending or descending order. Ascending.
 7. Is the data in the products table case sensitive?  Should it be case sensitive/insensitive? 
-When you're for an item the command needs to be case snesistive cause you need to specify all products in the inventory, one's that are lowercase and uppercase. EX. Searching 'China' is different from searching 'China'
+When you're looking for an item the command needs to be case snesistive cause you need to specify all products in the inventory, one's that are lowercase and uppercase. EX. Searching 'China' is different from searching 'China'
 8. Select all product names.
 SELECT * name 
 FROM unemath_Umar.Products;
