@@ -39,7 +39,9 @@ Yes, it could be all emails are required to be different from one another, ie. n
 2 3 2 1 5
 
 10. Find the natural join between the Faculty and Department relations below.
-Since Department and Faculty both have the same columns named Dept they will natural join. So, will the Chair and Name column as they're both First names
+A natural join creates a joint clause based on the two common columns being joined. Since Department and Faculty both have the same columns named Dept they will natural join. So, will the Chair and Name column as they're both First names
+SELECT * FROM Dept NATURAL JOIN Dept
+SELECT * FROM Chair NATURAL JOIN Name
 
 S
 --------------
