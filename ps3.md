@@ -23,7 +23,7 @@ In the student, and advisor example given in class, the students' natural key co
 For question 7 - 8, Consider product *orders*.  In particular, associated with an order is: customer name (first and last), address (street, city, state, zip), phone, email, the products orders (including item, quantity, and price).  
 
 7. Create a relational data model for *orders*.  Consider applying normalization rules (discuss Monday)
-A relational data model regarding orders may consist of columns such as "Customer Identification Number", "Customer Name", "Address", "Phone", "Email", and "Order Information". This first table would complete the 1st normal form, with "Address" being the primary key. Then, "Customer Name" would have to be split up into "First Name" and "Second Name", connected by a foreign key. In addition, "Order Information" would have to be connected, again via a foreign key, to a table detailing the item identification number, the item name, the quantity, and the price.
+A relational data model regarding orders may consist of columns such as "Customer Identification Number" which will be the primary key, "Customer Name", "Address", "Phone", "Email", and "Order Information". This first table would complete the 1st normal form, with "Address" being the primary key. Then, "Customer Name" would have to be split up into "First Name" and "Second Name", connected by a foreign key. In addition, "Order Information" would have to be connected, again via a foreign key, to a table detailing the item identification number, the item name, the quantity, and the price.
 
 
 8. For customer, could email be used as a primary key?  If so, state why.  Also, if possible to use as a primary key, discuss any disadvantages of using email as a primary key.
